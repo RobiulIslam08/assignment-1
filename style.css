@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    ;
+}
+
+/* common style start here */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1320px;
+    margin-top: 50px;
+
+
+
+}
+
+/* common style ends here */
+
+/* banner-1 design start here */
+.banner-1 {
+    background-image: url("resources/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 510px;
+
+
+
+}
+
+.banner-1 * {
+    text-align: center;
+}
+
+.banner-1 p {
+    padding-top: 177px;
+    color: #ffffff;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.banner-1 h1 {
+    padding: 5px 344px 177px 344px;
+    color: #d731d4;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* banner-1 design ends here */
+
+
+/* discount section start here */
+.discount-section {
+    width: 749px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 102px;
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+.discount-section h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.discount-section p {
+    color: #F00;
+
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.discount-section h2 {
+    color: #070211;
+
+
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.discount-section img {
+    width: 680px;
+    height: 425px;
+    flex-shrink: 0;
+}
+
+/* discount section  here */
+
+
+/* banner-2 section start here */
+.banner-2 {
+    background-image: url("resources/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 510px;
+    display: flex;
+  
+
+}
+
+.banner-2 .banner-2-text h1 {
+    width: 545px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 765;
+    line-height: 74px;
+    margin: 106px 0px 0px 107px;
+}
+
+
+.banner-2 .banner-2-text p {
+
+    color: rgba(254, 253, 255, 0.8);
+
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 590px;
+    margin: 20px 0px 0px 106px;
+}
+
+.banner-2 .join-now-btn {
+   
+    
+    background-color: #11c66c;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin: 40px 477px 120px 134px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    
+}
+.banner-2 .join-now-btn:hover{
+    background-color: #51ae7f;
+}
+.banner-2-img img{
+    height: 344px;
+    width: 271px;
+   margin: 57px 117px 56px 0px;
+   
+}
+
+/* banner-2 section ends here */
