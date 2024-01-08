@@ -418,6 +418,7 @@
 .newslatter-body .form input[type="email"]:hover {
     border: 1px solid gray;
     border-radius: 25px 0 0 25px;
+    outline: black;
 }
 .newslatter-body .form .subscribe-btn {
     color: white;
@@ -432,3 +433,107 @@
 
 }
 /* newsletter section ends here */
+
+footer {
+    max-width: 95%;
+    max-height: 95%;
+    background-color: #070211;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Inter;
+}
+footer .footer-first-step{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer .first-left {
+    width: 318px;
+    margin-top: 102px;
+    margin-left: 119px;
+    font: 21px;
+    line-height: 34px;
+}
+footer .first-right .phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px;
+    margin-right: 247px;
+    font-family: Inter;
+}
+footer .first-right .website{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 247px;
+    margin-top: 8px;
+
+
+}
+footer .first-right .phone img{
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+}
+footer .first-right .website img{
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+}
+footer hr{
+    background: #FFF;
+    width: 1120px;
+     
+    margin-top: 50px;
+    margin: 0 auto;
+}
+footer .footer-icon {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer .footer-icon img{
+    height: 54px;
+    width: 54px;
+}
+footer .footer-last-step{
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+}
+footer .footer-last-step .last-left {
+    margin-top: 42px;
+    margin-left: 119px;
+    margin-bottom: 102px;
+    font-family: Inter;
+}
+footer .footer-btn{
+    margin-top: 42px;
+    margin-right: 119px;
+    margin-bottom: 102px;
+}
+footer .last-left p{
+    font-family: Inter;
+}
+footer .first-left p {
+    font-family: Inter;
+}
+footer .phone p{
+    font-family: Inter;
+}
+footer .website p{
+    font-family: Inter;
+}
+.footer-btn{
+    outline: none;
+    border: none;
+    font-family: Inter;
+    transition: all 0.4s;
+}
+.footer-btn:hover{
+    cursor: pointer;
+    font-size: 18px;
+    
+}
