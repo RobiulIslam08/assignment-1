@@ -14,9 +14,26 @@
     margin: 0 auto;
     max-width: 1320px;
     margin-top: 50px;
+}
 
+.button {
+    background-color: #11c66c;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin: 40px 477px 120px 134px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
 
-
+.button:hover {
+    background-color: #51ae7f;
 }
 
 /* common style ends here */
@@ -124,7 +141,7 @@
     background-size: 100% 100%;
     height: 510px;
     display: flex;
-  
+
 
 }
 
@@ -153,30 +170,58 @@
     margin: 20px 0px 0px 106px;
 }
 
-.banner-2 .join-now-btn {
-   
-    
-    background-color: #11c66c;
-    font-family: Inter;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    border: none;
-    margin: 40px 477px 120px 134px;
-    padding: 10px 20px;
-    border-radius: 9px;
-    
-}
-.banner-2 .join-now-btn:hover{
-    background-color: #51ae7f;
-}
-.banner-2-img img{
+
+.banner-2-img img {
     height: 344px;
     width: 271px;
-   margin: 57px 117px 56px 0px;
-   
+    margin: 57px 117px 56px 0px;
+
 }
 
 /* banner-2 section ends here */
+
+/* place-date-time-section    start here */
+.place-date-time-section {
+    background-color: #FFEEEE;
+    margin-bottom: 102px;
+    border-radius: 8px;
+}
+
+.place-date-time-section .text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 93px;
+}
+
+.button-red {
+    color: #050000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.button-red:hover {
+    background-color: #c72121;
+}
+.text-color-red {
+    color: #F00;
+}
+
+/* place-date-time-section    ends here */
