@@ -619,6 +619,9 @@ footer .footer-icon i {
     font-size: 40px;
     color: #c750c5;
 }
+footer .footer-icon i:hover{
+    color: #d67cd5;
+}
 
 footer .footer-last-step {
     display: flex;
