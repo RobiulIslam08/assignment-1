@@ -15,7 +15,7 @@
     max-width: 1320px;
     margin-top: 50px;
     position: relative;
-    
+
 }
 
 .button {
@@ -169,12 +169,14 @@
     width: 590px;
     margin: 20px 0px 0px 106px;
 }
+
 .banner-2-img img {
     height: 344px;
     width: 271px;
     margin: 57px 117px 56px 0px;
 
 }
+
 /* banner-2 section ends here */
 
 /* place-date-time-section    start here */
@@ -183,6 +185,7 @@
     margin-bottom: 102px;
     border-radius: 18px;
 }
+
 .place-date-time-section .text {
     color: #070211;
     font-family: Inter;
@@ -195,6 +198,7 @@
     padding-top: 85px;
     padding-bottom: 93px;
 }
+
 .button-red {
     color: #050000;
     text-align: center;
@@ -211,12 +215,15 @@
     cursor: pointer;
     margin-top: 35px;
 }
+
 .button-red:hover {
     background-color: #c72121;
 }
+
 .text-color-red {
     color: #F00;
 }
+
 /* place-date-time-section    ends here */
 
 
@@ -228,9 +235,11 @@
     gap: 60px;
     margin-bottom: 102px;
 }
+
 .section-5-text-left {
     text-align: left;
 }
+
 .section-5-text-left h3 {
     color: #F00;
     font-family: Inter;
@@ -293,11 +302,69 @@
     margin-bottom: 37px;
     /* 160% */
 }
+
 .section-5-text-right img {
     width: 119px;
     height: 119px;
 }
+
 /* section-5 ends here */
+
+
+
+
+
+/* holidays-sale-section- start here */
+.holidays-sale-section-heading {
+    width: 907px;
+    margin: 0 auto;
+}
+
+.holidays-sale-section-heading h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.holidays-sale-section-heading h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.holidays-sale-section-heading p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* holidays-sale-section- start here */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* portfolio section start here */
@@ -309,6 +376,7 @@
     font-weight: 500;
     line-height: normal;
 }
+
 .portfolio-heading h1 {
     color: #070211;
     font-family: Merriweather;
@@ -338,14 +406,17 @@
     margin-bottom: 18px;
     cursor: pointer;
 }
+
 .portfolio .first-row-img img {
     width: 360px;
     height: 382px;
 }
+
 .portfolio .second-row-img img {
     width: 360px;
     height: 382px;
 }
+
 .portfolio .first-row-img img:hover {
     opacity: 0.9;
     box-shadow: 6px 6px 15px rgb(133, 204, 231);
@@ -371,16 +442,19 @@
     border-radius: 16px;
     margin-bottom: 102px;
 }
+
 .newslatter-body {
     width: 762px;
     margin: 0 auto;
     text-align: center;
 }
+
 .newslatter-body img {
     height: 128px;
     width: 128px;
     margin-bottom: 34px;
 }
+
 .newslatter-body h1 {
     color: #070211;
     text-align: center;
@@ -402,33 +476,38 @@
     line-height: 27px;
     margin-bottom: 41px;
 }
-.newslatter-body .form{
+
+.newslatter-body .form {
     max-width: 550px;
     max-height: 61px;
     margin: 0 auto;
-    
+
     margin-bottom: 68px;
 }
+
 .newslatter-body .form input[type="email"] {
     padding: 19px 25px;
     outline: none;
     border: none;
     cursor: pointer;
     position: relative;
-    background: #FFF;   
+    background: #FFF;
     font-size: 18px;
     border-radius: 25px 0 0 25px;
 }
-.newslatter-body .form .subscribe-btn:hover{
+
+.newslatter-body .form .subscribe-btn:hover {
     border: 1px solid gray;
     border-radius: 0 25px 25px 0;
 
 }
+
 .newslatter-body .form input[type="email"]:hover {
     border: 1px solid gray;
     border-radius: 25px 0 0 25px;
     outline: black;
 }
+
 .newslatter-body .form .subscribe-btn {
     color: white;
     border-radius: 0 25px 25px 0;
@@ -441,6 +520,7 @@
     font-size: 18px;
 
 }
+
 /* newsletter section ends here */
 
 footer {
@@ -452,11 +532,13 @@ footer {
     color: white;
     font-family: Inter;
 }
-footer .footer-first-step{
+
+footer .footer-first-step {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
+
 footer .first-left {
     width: 318px;
     margin-top: 102px;
@@ -464,7 +546,8 @@ footer .first-left {
     font: 21px;
     line-height: 34px;
 }
-footer .first-right .phone{
+
+footer .first-right .phone {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -472,7 +555,8 @@ footer .first-right .phone{
     margin-right: 247px;
     font-family: Inter;
 }
-footer .first-right .website{
+
+footer .first-right .website {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,68 +565,82 @@ footer .first-right .website{
 
 
 }
-footer .first-right .phone img{
+
+footer .first-right .phone img {
     height: 21px;
     width: 21px;
     margin-right: 5px;
 }
-footer .first-right .website img{
+
+footer .first-right .website img {
     height: 21px;
     width: 21px;
     margin-right: 5px;
 }
-footer hr{
+
+footer hr {
     background: #FFF;
     width: 1120px;
-     
+
     margin-top: 50px;
     margin: 0 auto;
 }
+
 footer .footer-icon {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-footer .footer-icon img{
+
+footer .footer-icon img {
     height: 54px;
     width: 54px;
 }
-footer .footer-last-step{
+
+footer .footer-last-step {
     display: flex;
     justify-content: space-between;
     font-family: Inter;
 }
+
 footer .footer-last-step .last-left {
     margin-top: 42px;
     margin-left: 119px;
     margin-bottom: 102px;
     font-family: Inter;
 }
-footer .footer-btn{
+
+footer .footer-btn {
     margin-top: 42px;
     margin-right: 119px;
     margin-bottom: 102px;
 }
-footer .last-left p{
+
+footer .last-left p {
     font-family: Inter;
 }
+
 footer .first-left p {
     font-family: Inter;
 }
-footer .phone p{
+
+footer .phone p {
     font-family: Inter;
 }
-footer .website p{
+
+footer .website p {
     font-family: Inter;
 }
-.footer-btn{
+
+.footer-btn {
     outline: none;
     border: none;
     font-family: Inter;
     transition: all 0.4s;
 }
-.footer-btn:hover{
+
+.footer-btn:hover {
     cursor: pointer;
     font-size: 18px;
-    
+
 }
