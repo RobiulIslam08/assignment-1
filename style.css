@@ -584,16 +584,17 @@ footer .first-right .website {
 
 }
 
-footer .first-right .phone img {
+footer .first-right .phone i {
     height: 21px;
     width: 21px;
     margin-right: 5px;
 }
 
-footer .first-right .website img {
+footer .first-right .website i {
     height: 21px;
     width: 21px;
     margin-right: 5px;
+    
 }
 
 footer hr {
@@ -610,7 +611,7 @@ footer .footer-icon {
     margin-bottom: 50px;
 }
 
-footer .footer-icon img {
+footer .footer-icon i {
     height: 54px;
     width: 54px;
 }
