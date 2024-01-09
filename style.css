@@ -574,7 +574,7 @@ footer .first-right .phone {
     font-family: Inter;
 }
 
-footer .first-right .website {
+footer .first-right .email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -590,10 +590,11 @@ footer .first-right .phone i {
     margin-right: 5px;
 }
 
-footer .first-right .website i {
+footer .first-right .email i {
     height: 21px;
     width: 21px;
     margin-right: 5px;
+    
     
 }
 
@@ -609,11 +610,14 @@ footer .footer-icon {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 
 footer .footer-icon i {
     height: 54px;
     width: 54px;
+    font-size: 40px;
+    color: #c750c5;
 }
 
 footer .footer-last-step {
