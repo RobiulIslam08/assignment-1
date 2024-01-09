@@ -373,7 +373,26 @@
     margin-left: 550px;
     margin-top: 50px;
 }
+/* .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.left-img img {
+    width: 400px;
+    height: 400px;
     
+} */
+.left-img {
+    position: absolute;
+}    
+.holiday-img {
+    position: relative;
+}
+.left-img img{
+    height: 600px;
+    width: 500px;
+
+}
 /* holidays-sale-section- ends here */
 
 
