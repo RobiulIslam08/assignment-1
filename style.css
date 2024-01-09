@@ -482,6 +482,7 @@
     background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
     margin-bottom: 102px;
+    padding-bottom: 20px;
 }
 
 .newslatter-body {
@@ -491,6 +492,7 @@
 }
 
 .newslatter-body img {
+    margin-top: 50px;
     height: 128px;
     width: 128px;
     margin-bottom: 34px;
@@ -522,8 +524,8 @@
     max-width: 550px;
     max-height: 61px;
     margin: 0 auto;
-
-    margin-bottom: 68px;
+    
+   
 }
 
 .newslatter-body .form input[type="email"] {
@@ -565,11 +567,11 @@
 /* newsletter section ends here */
 
 footer {
-    max-width: 95%;
+    max-width: 1500px;
     max-height: 95%;
     background-color: #070211;
     margin: 0 auto;
-    margin-bottom: 50px;
+    
     color: white;
     font-family: Inter;
 }
