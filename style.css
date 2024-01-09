@@ -351,8 +351,26 @@
     font-weight: 500;
     line-height: 32px;
 }
+.holidays-sale-section-img {
+    height: 537px;
+    width: 100%;
+    margin-top: 51px;
+}
+.holidays-sale-section-img .background-end {
+    width: 1122px;
+    height: 194px;
+    background-color: #F00;
+    margin: 0 auto;
+    
+}
+.holidays-sale-section-img .img-left{
+    
+    
+    width: 695px;
+    height: 529px;
+}
 
-/* holidays-sale-section- start here */
+/* holidays-sale-section- ends here */
 
 
 
