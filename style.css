@@ -338,13 +338,22 @@
     margin-bottom: 18px;
     cursor: pointer;
 }
-
+.portfolio .first-row-img img {
+    width: 360px;
+    height: 382px;
+}
+.portfolio .second-row-img img {
+    width: 360px;
+    height: 382px;
+}
 .portfolio .first-row-img img:hover {
     opacity: 0.9;
+    box-shadow: 6px 6px 15px rgb(133, 204, 231);
 }
 
 .portfolio .second-row-img img:hover {
     opacity: 0.9;
+    box-shadow: 6px 6px 15px rgb(133, 204, 231);
 }
 
 .portfolio .second-row-img {
